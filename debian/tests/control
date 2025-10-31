@@ -1,0 +1,3 @@
+Tests: autolink
+Depends: @, nodejs
+Test-Command: nodejs debian/tests/autolink-test.js

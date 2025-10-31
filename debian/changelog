@@ -1,0 +1,35 @@
+libjs-autolink (1.0.2+dfsg2-5) UNRELEASED; urgency=medium
+
+  * Enable autopkgtest by declaring Testsuite field and shipping a Node.js
+    regression test that mirrors the upstream Jasmine suite.
+  * Install salsa-ci pipeline configuration so lintian/build/autopkgtest run
+    automatically on Salsa.
+
+ -- Gustavo Quadri <gustavoquadri@alunos.utfpr.edu.br>  Wed, 29 Oct 2025 00:45:00 +0000
+
+libjs-autolink (1.0.2+dfsg2-4) unstable; urgency=medium
+
+  * QA upload.
+
+  * Updated Standards-Version from 4.0.0 to 4.7.0.
+  * Use wrap-and-sort -at for debian control files.
+  * Bump debhelper from old 10 to 13.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Corrected Vcs links from Alioth to Salsa.
+  * Rewrote long lines in package description.
+
+ -- Petter Reinholdtsen <pere@debian.org>  Sun, 01 Dec 2024 18:53:10 +0100
+
+libjs-autolink (1.0.2+dfsg2-3) unstable; urgency=medium
+
+  * Orphaning package.
+
+ -- Michael Lustfield <michael@lustfield.net>  Sat, 03 Feb 2018 14:36:39 -0600
+
+libjs-autolink (1.0.2+dfsg2-2) unstable; urgency=medium
+
+  * Initial release. (Closes: #873457)
+
+ -- Michael Lustfield <michael@lustfield.net>  Sat, 26 Aug 2017 22:09:49 -0500

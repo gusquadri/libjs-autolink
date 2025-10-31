@@ -1,0 +1,22 @@
+Source: libjs-autolink
+Section: javascript
+Priority: optional
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13), uglifyjs,
+Standards-Version: 4.7.0
+Testsuite: autopkgtest
+Homepage: https://github.com/bryanwoods/autolink-js
+Vcs-Git: https://salsa.debian.org/debian/libjs-autolink.git
+Vcs-Browser: https://salsa.debian.org/debian/libjs-autolink
+
+Package: libjs-autolink
+Architecture: all
+Depends: javascript-common,
+         ${misc:Depends},
+Description: JavaScript methods converting text to links
+ This JavaScript library implements methods for converting strings of text
+ containing URLs to hyperlinks.
+ .
+ Example:
+ - Input:  "This is a link to Google https://vg.no".autoLink()
+ - Output: "This is a link to Google <a href='https://vg.no'>https://vg.no</a>"
